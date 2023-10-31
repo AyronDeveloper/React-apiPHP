@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+nav{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+nav div{
+    flex: 1;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a{
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    padding: 20px 0;
+    font-weight: bold;
+}
+.all-food{
+    background-color: #00FF93;
+    color: #1E362B;
+}
+.add-food{
+    background-color: #FFEC00;
+    color: #1E362B;
+}
+.edit-food{
+    background-color: #3EFF00;
+    color: #1E362B;
+}
+a:hover{
+    background-color: #ffffff;
+    color: #111111;
+}
